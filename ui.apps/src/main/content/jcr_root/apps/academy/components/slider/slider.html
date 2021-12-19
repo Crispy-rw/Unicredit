@@ -1,0 +1,20 @@
+<div class="slideshow-container">
+  <sly data-sly-use.model="com.academy.core.models.SliderModel"  />
+
+    <div data-sly-list.item="${model.slides}">
+      <div class="mySlides fade">
+        <div class="numbertext">${itemList.count}</div>
+        <img src="https://cdn.pixabay.com/photo/2019/07/25/06/51/thuja-4361821_960_720.jpg" alt="${item.caption}" style="width:100%; height: 300px;">
+        <div class="text">${item.caption}</div>
+      </div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center" data-sly-list.item="${model.slides}">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+    </div>

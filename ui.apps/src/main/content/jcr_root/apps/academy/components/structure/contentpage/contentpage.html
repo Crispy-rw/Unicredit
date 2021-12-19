@@ -1,8 +1,14 @@
 <html>
-    <head></head>
+    <head>
+        <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories=['academy.base']}"/>
+    </head>
     <body>
         <section data-sly-include="header.html"></section>
         <section data-sly-include="body.html"></section>
         <section data-sly-include="footer.html"></section>
     </body>
+    
+    <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.js @ categories=['academy.base']}"/>
 </html>
