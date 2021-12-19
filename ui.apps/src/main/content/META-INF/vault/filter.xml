@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/academy/clientlibs"/>
+    <filter root="/apps/academy/components"/>
+    <filter root="/apps/academy/i18n"/>
+    <filter root="/apps/academy/templates"/>
+</workspaceFilter>
