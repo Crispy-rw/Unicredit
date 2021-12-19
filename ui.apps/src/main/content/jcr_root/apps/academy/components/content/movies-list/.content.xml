@@ -4,8 +4,7 @@
     xmlns:cq="http://www.day.com/jcr/cq/1.0"
     xmlns:jcr="http://www.jcp.org/jcr/1.0" 
     jcr:primaryType="cq:Component"
-    jcr:title="Academy Site Home Page" 
-    sling:resourceSuperType="academy/components/structure/contentpage"
-    className="academylearning-page"
+    jcr:title="Movie List Component" 
+    sling:resourceSuperType="core/wcm/components/list/v2/list"
     componentGroup="academy-christian"
 />

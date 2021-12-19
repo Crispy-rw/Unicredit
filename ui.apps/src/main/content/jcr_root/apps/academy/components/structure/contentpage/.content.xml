@@ -7,5 +7,5 @@
     jcr:title="Academy Base Page Component" 
     sling:resourceSuperType="core/wcm/components/page/v2/page"
     className="academylearning-page"
-    componentGroup=".hidden"
+    componentGroup="academy-christian"
 />
