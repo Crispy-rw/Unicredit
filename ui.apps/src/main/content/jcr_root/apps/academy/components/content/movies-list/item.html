@@ -1,17 +1,25 @@
 <template data-sly-template.item="${@ list, item}">
-    <h1>Avengers ${item}</h1>
+    <!-- <h1>Avengers ${item}</h1>
     <article class="cmp-image-list__item-content">
-        <a class="cmp-image-list__item-image-link" href="${item.URL}" data-sly-unwrap="${!list.listAdvancedItems}"
+        <a class="cmp-image-list__item-image-link" href="${item.name}" data-sly-unwrap="${!list.listAdvancedItems}"
             data-cmp-clickable="${item.data ? true : false}"
             data-sly-test="${item.image}">
              <div class="cmp-image-list__item-image" data-sly-resource="${item.image @ wcmmode='disabled'}"></div>
             </a>
             <a class="cmp-image-list__item-title-link" href="${item.URL}">
-            <span class="cmp-list__item-title">${item.title}</span>
+            <span class="cmp-list__item-title">${item.name}</span>
             </a>
             <span data-sly-test="${list.showModificationDate}"
                   class="cmp-list__item-date">${list.dateFormatString @format=item.lastModified}</span>
          
-        <span data-sly-test="${list.showDescription}" class="cmp-list__item-description">${item.description}</span>
-    </article>
+        <span class="cmp-list__item-description">${item.creationDate}</span>
+    </article> -->
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+          <div class="card_content">
+            <h2 class="card_title">Card Grid Layout</h2>
+            <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
 </template>

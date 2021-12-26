@@ -26,7 +26,6 @@ public class SliderModel {
             }
             if (slidesList != null) {
                 for (Resource slide : slidesList.getChildren()) {
-                    // LOG.info(" DEBUG ==================><><><><><><><><>" + slide.getValueMap().get("fileReference", String.class));
                     Map<String, String> slideMap = new HashMap<String, String>();
                     slideMap.put("caption", slide.getValueMap().get("caption", String.class));
                     slideMap.put("imageLocation", slide.getValueMap().get("fileReference", String.class));

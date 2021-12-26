@@ -37,5 +37,21 @@ public class MoviesModel {
         item.put("name", "Bad Boys for Life");
         item.put("creationDate", "2002/01/01");
         list.add(item);
+
+        item.put("name", "Bad Boys for Life");
+        item.put("creationDate", "2002/01/01");
+        list.add(item);
+
+        item.put("name", "Bad Boys for Life");
+        item.put("creationDate", "2002/01/01");
+        list.add(item);
+
+        item.put("name", "Bad Boys for Life");
+        item.put("creationDate", "2002/01/01");
+        list.add(item);
+
+        item.put("name", "Bad Boys for Life");
+        item.put("creationDate", "2002/01/01");
+        list.add(item);
     }
 }
